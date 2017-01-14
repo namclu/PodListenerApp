@@ -21,12 +21,12 @@
     <TextView
         android:id="@+id/downloaded_list_activity_main"
         style="@style/CategoryStyle"
-        android:text="Downloaded List" />
+        android:text="Downloaded Podcasts" />
 
     <TextView
         android:id="@+id/episode_list_activity_main"
         style="@style/CategoryStyle"
-        android:text="Episode List" />
+        android:text="Downloaded Episodes" />
 
     <TextView
         android:id="@+id/episode_playback_activity_main"

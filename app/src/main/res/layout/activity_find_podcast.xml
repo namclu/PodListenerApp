@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:layout_toRightOf="@+id/iv_tal_activity_find_podcast"
-                android:text="Title: This American Life"/>
+                android:text="@string/title_this_american_life"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
                 android:gravity="top"
                 android:layout_toRightOf="@id/iv_tal_activity_find_podcast"
                 android:layout_below="@+id/tv_title_tal_activity_find_podcast"
-                android:text="Publisher: WBEZ"/>
+                android:text="@string/publisher_wbez"/>
 
         </LinearLayout>
 
