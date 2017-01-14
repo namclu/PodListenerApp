@@ -13,7 +13,10 @@ public class FindPodcastActivity extends AppCompatActivity implements View.OnCli
         setContentView(R.layout.activity_find_podcast);
 
         // Declare references to FindPodcastActivity buttons
-        View talView = findViewById(R.id.ll_podcast_tal_activity_find_podcast);
+        View talView;
+
+        // Find respective views and setOnClickListeners
+        talView = findViewById(R.id.ll_podcast_tal_activity_find_podcast);
         talView.setOnClickListener(this);
     }
 

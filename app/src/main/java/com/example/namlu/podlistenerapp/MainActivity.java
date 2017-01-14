@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Declare references to MainActivity buttons
         TextView findPodcastActivity;
         TextView addPodcastActivity;
+        TextView downloadedPodcastActivity;
 
         // Find respective views and setOnClickListeners
         findPodcastActivity = (TextView) findViewById(R.id.find_podcast_activity_main);
@@ -23,6 +24,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         addPodcastActivity = (TextView) findViewById(R.id.add_podcast_activity_main);
         addPodcastActivity.setOnClickListener(this);
+
+        downloadedPodcastActivity = (TextView) findViewById(R.id.downloaded_podcast_activity_main);
+        downloadedPodcastActivity.setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (view.getId() == R.id.add_podcast_activity_main) {
             Intent addPodcastIntent = new Intent(MainActivity.this, AddPodcastActivity.class);
             startActivity(addPodcastIntent);
+        } else if (view.getId() == R.id.downloaded_podcast_activity_main) {
+            Intent downloadedPodcastIntent = new Intent(MainActivity.this, DownloadedPodcastActivity.class);
+            startActivity(downloadedPodcastIntent);
         }
     }
 }
