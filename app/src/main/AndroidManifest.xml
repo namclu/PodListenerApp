@@ -15,11 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".FindPodcastActivity"
-                  android:label="@string/find_podcast_name">
+        <activity
+            android:name=".FindPodcastActivity"
+            android:label="@string/find_podcast_name">
         </activity>
-        <activity android:name=".AddPodcastActivity"
-                  android:label="@string/add_podcast_name">
+        <activity
+            android:name=".AddPodcastActivity"
+            android:label="@string/add_podcast_name">
+        </activity>
+        <activity android:name=".DownloadedPodcastActivity" android:label="@string/downloaded_podcast_name">
         </activity>
     </application>
 

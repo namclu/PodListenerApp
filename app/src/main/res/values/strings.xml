@@ -5,4 +5,9 @@
 
     <string name="title_this_american_life">Title: This American Life</string>
     <string name="publisher_wbez">Publisher: WBEZ</string>
+    <string name="downloaded_podcast_name">Downloaded Podcast</string>
+    <string name="title_code_switch">Code Switch</string>
+    <string name="publisher_npr">Publisher: NPR</string>
+    <string name="publisher_self_published">Publisher: Self-published</string>
+    <string name="title_start_up_podcast">Title: Start-Up Podcast</string>
 </resources>

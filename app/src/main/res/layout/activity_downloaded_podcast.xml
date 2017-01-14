@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_downloaded_podcast"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.namlu.podlistenerapp.DownloadedPodcastActivity">
+
+    <!-- Single Podcast item -->
+    <LinearLayout
+        android:id="@+id/ll_podcast_tal_activity_downloaded_podcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_tal_activity_downloaded_podcast"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/this_american_life"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_tal_activity_downloaded_podcast"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:layout_toRightOf="@+id/iv_tal_activity_downloaded_podcast"
+                android:text="@string/title_code_switch"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:layout_toRightOf="@id/iv_tal_activity_downloaded_podcast"
+                android:layout_below="@+id/tv_title_tal_activity_find_podcast"
+                android:text="@string/publisher_npr"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Single Podcast item -->
+    <LinearLayout
+        android:id="@+id/ll_podcast_name_activity_downloaded_podcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_name_activity_downloaded_podcast"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/this_american_life"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_name_activity_downloaded_podcast"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:layout_toRightOf="@+id/iv_name_activity_downloaded_podcast"
+                android:text="Title: Fragmented: An Android Podcast"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:layout_toRightOf="@id/iv_name_activity_downloaded_podcast"
+                android:layout_below="@+id/tv_title_name_activity_find_podcast"
+                android:text="@string/publisher_self_published"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Single Podcast item -->
+    <LinearLayout
+        android:id="@+id/ll_podcast_name2_activity_downloaded_podcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_name2_activity_downloaded_podcast"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/this_american_life"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_name2_activity_downloaded_podcast"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:layout_toRightOf="@+id/iv_name2_activity_downloaded_podcast"
+                android:text="@string/title_start_up_podcast"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:layout_toRightOf="@id/iv_name2_activity_downloaded_podcast"
+                android:layout_below="@+id/tv_title_name2_activity_find_podcast"
+                android:text="Publisher: Gimlet Media"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
