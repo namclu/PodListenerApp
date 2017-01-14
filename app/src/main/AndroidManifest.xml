@@ -15,9 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".FindPodcastActivity">
+        <activity android:name=".FindPodcastActivity"
+                  android:label="@string/find_podcast_name">
         </activity>
-        <activity android:name=".AddPodcastActivity">
+        <activity android:name=".AddPodcastActivity"
+                  android:label="@string/add_podcast_name">
         </activity>
     </application>
 

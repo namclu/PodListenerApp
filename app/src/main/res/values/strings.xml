@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">PodListener App</string>
+    <string name="find_podcast_name">Find Podcasts</string>
+    <string name="add_podcast_name">Add Podcast</string>
+
     <string name="title_this_american_life">Title: This American Life</string>
     <string name="publisher_wbez">Publisher: WBEZ</string>
 </resources>
