@@ -23,7 +23,8 @@
             android:name=".AddPodcastActivity"
             android:label="@string/add_podcast_name">
         </activity>
-        <activity android:name=".DownloadedPodcastActivity" android:label="@string/downloaded_podcast_name">
+        <activity android:name=".DownloadedPodcastActivity"
+                  android:label="@string/downloaded_podcast_name">
         </activity>
     </application>
 

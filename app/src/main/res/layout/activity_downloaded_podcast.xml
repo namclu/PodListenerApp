@@ -8,6 +8,11 @@
     android:orientation="vertical"
     tools:context="com.example.namlu.podlistenerapp.DownloadedPodcastActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Description of this activity"/>
+
     <!-- Single Podcast item -->
     <LinearLayout
         android:id="@+id/ll_podcast_tal_activity_downloaded_podcast"
@@ -20,7 +25,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
-            android:src="@drawable/this_american_life"/>
+            android:src="@drawable/code_switch"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +65,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
-            android:src="@drawable/this_american_life"/>
+            android:src="@drawable/fragmented"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -74,7 +79,7 @@
                 android:layout_weight="1"
                 android:gravity="bottom"
                 android:layout_toRightOf="@+id/iv_name_activity_downloaded_podcast"
-                android:text="Title: Fragmented: An Android Podcast"/>
+                android:text="@string/title_fragmented_an_android_podcast"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -100,7 +105,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
-            android:src="@drawable/this_american_life"/>
+            android:src="@drawable/startup_podcast"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -123,7 +128,7 @@
                 android:gravity="top"
                 android:layout_toRightOf="@id/iv_name2_activity_downloaded_podcast"
                 android:layout_below="@+id/tv_title_name2_activity_find_podcast"
-                android:text="Publisher: Gimlet Media"/>
+                android:text="@string/publisher_gimlet_media"/>
 
         </LinearLayout>
     </LinearLayout>

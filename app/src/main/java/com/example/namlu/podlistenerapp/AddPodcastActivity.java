@@ -18,7 +18,7 @@ public class AddPodcastActivity extends AppCompatActivity implements View.OnClic
         Button cancelButton;
         Button addButton;
 
-        // // Find respective views and setOnClickListeners
+        // Find respective views and setOnClickListeners
         cancelButton = (Button) findViewById(R.id.btn_cancel_activity_add_podcast);
         cancelButton.setOnClickListener(this);
 
