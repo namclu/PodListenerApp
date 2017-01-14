@@ -13,6 +13,8 @@
         android:layout_height="50dp"
         android:text="Description of this activity"/>
 
+    <View style="@style/Divider"/>
+
     <!-- Search Bar -->
     <RelativeLayout
         android:layout_width="match_parent"
