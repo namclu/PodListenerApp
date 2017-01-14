@@ -9,12 +9,12 @@
     tools:context="com.example.namlu.podlistenerapp.MainActivity">
 
     <TextView
-        android:id="@+id/find_activity_main"
+        android:id="@+id/find_podcast_activity_main"
         style="@style/CategoryStyle"
         android:text="Find Podcasts" />
 
     <TextView
-        android:id="@+id/add_activity_main"
+        android:id="@+id/add_podcast_activity_main"
         style="@style/CategoryStyle"
         android:text="Add Podcast" />
 
