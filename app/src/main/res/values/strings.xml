@@ -16,4 +16,5 @@
     <string name="title_start_up_podcast">Title: Start-Up Podcast</string>
     <string name="title_this_american_life">Title: This American Life</string>
     <string name="title_fragmented_an_android_podcast">Title: Fragmented: An Android Podcast</string>
+    <string name="episode_list_name">Episode List</string>
 </resources>
