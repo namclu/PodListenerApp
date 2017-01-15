@@ -23,7 +23,9 @@ public class EpisodeListActivity extends AppCompatActivity implements View.OnCli
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.btn_download_activity_episode_list) {
+        if (view.getId() == R.id.btn_play_activity_episode_list) {
+            Toast.makeText(this, "Playing episode...", Toast.LENGTH_SHORT).show();
+        } else if (view.getId() == R.id.btn_download_activity_episode_list) {
             Toast.makeText(this, "Downloading episode...", Toast.LENGTH_SHORT).show();
         }
     }

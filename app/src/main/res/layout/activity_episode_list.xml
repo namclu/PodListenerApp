@@ -76,6 +76,35 @@
             android:text="#1 The premier episode!"/>
 
         <ImageButton
+            android:id="@+id/btn_play_activity_episode_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/ic_btn_play"/>
+
+    </LinearLayout>
+
+    <!-- Single episode item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="21 Jan"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center_vertical"
+            android:text="#2 Even better than the premier!"/>
+
+        <ImageButton
             android:id="@+id/btn_download_activity_episode_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
