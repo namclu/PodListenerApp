@@ -1,5 +1,6 @@
 package com.example.namlu.podlistenerapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -32,7 +33,8 @@ public class DownloadedPodcastActivity extends AppCompatActivity implements View
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.ll_code_switch_activity_downloaded_podcast) {
-            Toast.makeText(this, "Opening CodeSwitch episodes list...", Toast.LENGTH_SHORT).show();
+            Intent codeSwitchIntent = new Intent(this, EpisodeListActivity.class);
+            startActivity(codeSwitchIntent);
         } else if (view.getId() == R.id.ll_fragmented_activity_downloaded_podcast) {
             Toast.makeText(this, "Opening Fragmented episodes list...", Toast.LENGTH_SHORT).show();
         } else if (view.getId() == R.id.ll_podcast_startup_activity_downloaded_podcast) {
