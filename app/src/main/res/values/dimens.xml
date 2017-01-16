@@ -5,6 +5,6 @@
     <dimen name="divider_vertical_margin">8dp</dimen>
 
     <!-- Height of each list item -->
-    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_height">70dp</dimen>
 
 </resources>

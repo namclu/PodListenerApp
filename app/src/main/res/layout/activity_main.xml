@@ -26,7 +26,7 @@
     <TextView
         android:id="@+id/episode_list_activity_main"
         style="@style/CategoryStyle"
-        android:text="Downloaded Episodes" />
+        android:text="Episode List" />
 
     <TextView
         android:id="@+id/episode_playback_activity_main"

@@ -29,7 +29,7 @@
         </activity>
         <activity
             android:name=".EpisodeListActivity"
-            android:label="@string/download_episode_name">
+            android:label="@string/episode_list_name">
         </activity>
         <activity android:name=".EpisodePlaybackActivity"
                   android:label="@string/episode_playback_name">
