@@ -21,4 +21,5 @@
 
     <!-- Podcast Decriptions-->
     <string name="text_description_code_switch">#1 The premier episode!</string>
+    <string name="placeholder_progress_bar"><![CDATA[<---------------------------- Progress bar ---------------------------->]]></string>
 </resources>

@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView addPodcastActivity;
         TextView downloadedPodcastActivity;
         TextView episodeListActivity;
+        TextView episodePlaybackActivity;
 
         // Find respective views and setOnClickListeners
         findPodcastActivity = (TextView) findViewById(R.id.find_podcast_activity_main);
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         episodeListActivity = (TextView) findViewById(R.id.episode_list_activity_main);
         episodeListActivity.setOnClickListener(this);
+
+        episodePlaybackActivity = (TextView) findViewById(R.id.episode_playback_activity_main);
+        episodePlaybackActivity.setOnClickListener(this);
     }
 
     @Override
@@ -47,6 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (view.getId() == R.id.episode_list_activity_main) {
             Intent episodeListIntent = new Intent(this, EpisodeListActivity.class);
             startActivity(episodeListIntent);
+        } else if (view.getId() == R.id.episode_playback_activity_main) {
+            Intent episodePlaybackIntent = new Intent(this, EpisodePlaybackActivity.class);
+            startActivity(episodePlaybackIntent);
         }
     }
 }
