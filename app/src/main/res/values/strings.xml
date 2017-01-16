@@ -4,6 +4,8 @@
     <string name="find_podcast_name">Find Podcasts</string>
     <string name="add_podcast_name">Add Podcast</string>
     <string name="downloaded_podcast_name">Downloaded Podcast</string>
+    <string name="episode_list_name">Episode List</string>
+    <string name="episode_playback_name">Playback Episode</string>
 
     <!-- Podcast Publishers -->
     <string name="publisher_gimlet_media">Publisher: Gimlet Media</string>
@@ -16,5 +18,7 @@
     <string name="title_start_up_podcast">Title: Start-Up Podcast</string>
     <string name="title_this_american_life">Title: This American Life</string>
     <string name="title_fragmented_an_android_podcast">Title: Fragmented: An Android Podcast</string>
-    <string name="episode_list_name">Episode List</string>
+
+    <!-- Podcast Decriptions-->
+    <string name="text_description_code_switch">#1 The premier episode!</string>
 </resources>

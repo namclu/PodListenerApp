@@ -27,8 +27,12 @@
             android:name=".DownloadedPodcastActivity"
             android:label="@string/downloaded_podcast_name">
         </activity>
-        <activity android:name=".EpisodeListActivity"
-                  android:label="@string/episode_list_name">
+        <activity
+            android:name=".EpisodeListActivity"
+            android:label="@string/episode_list_name">
+        </activity>
+        <activity android:name=".EpisodePlaybackActivity"
+                  android:label="@string/episode_playback_name">
         </activity>
     </application>
 

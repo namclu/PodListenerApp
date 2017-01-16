@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:layout_gravity="center_vertical"
-            android:text="#1 The premier episode!"/>
+            android:text="@string/text_description_code_switch"/>
 
         <ImageButton
             android:id="@+id/btn_play_activity_episode_list"
