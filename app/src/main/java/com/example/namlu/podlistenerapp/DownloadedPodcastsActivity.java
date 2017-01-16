@@ -6,14 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-public class DownloadedPodcastActivity extends AppCompatActivity implements View.OnClickListener{
+public class DownloadedPodcastsActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_downloaded_podcast);
 
-        // Declare references to DownloadedPodcastActivity buttons
+        // Declare references to DownloadedPodcastsActivity buttons
         View codeSwitchView;
         View fragmentedView;
         View startUpView;

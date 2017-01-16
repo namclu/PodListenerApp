@@ -8,13 +8,6 @@
     android:orientation="vertical"
     tools:context="com.example.namlu.podlistenerapp.FindPodcastActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Description of this activity"/>
-
-    <View style="@style/Divider"/>
-
     <!-- Search Bar -->
     <RelativeLayout
         android:layout_width="match_parent"
@@ -30,11 +23,17 @@
             android:id="@+id/btn_search_activity_find_podcast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
             android:layout_toRightOf="@+id/et_search_activity_find_podcast"
             android:text="Search"/>
     </RelativeLayout>
 
     <View style="@style/Divider"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Results:"/>
 
     <!-- Single Podcast item -->
     <LinearLayout
@@ -72,9 +71,15 @@
                 android:layout_toRightOf="@id/iv_tal_activity_find_podcast"
                 android:layout_below="@+id/tv_title_tal_activity_find_podcast"
                 android:text="@string/publisher_wbez"/>
-
         </LinearLayout>
 
     </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Description of this activity"/>
 
 </LinearLayout>

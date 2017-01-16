@@ -39,21 +39,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.find_podcast_activity_main) {
-            Intent findPodcastIntent = new Intent(this, FindPodcastActivity.class);
-            startActivity(findPodcastIntent);
-        } else if (view.getId() == R.id.add_podcast_activity_main) {
-            Intent addPodcastIntent = new Intent(this, AddPodcastActivity.class);
-            startActivity(addPodcastIntent);
-        } else if (view.getId() == R.id.downloaded_podcast_activity_main) {
-            Intent downloadedPodcastIntent = new Intent(this, DownloadedPodcastActivity.class);
-            startActivity(downloadedPodcastIntent);
-        } else if (view.getId() == R.id.episode_list_activity_main) {
-            Intent episodeListIntent = new Intent(this, EpisodeListActivity.class);
-            startActivity(episodeListIntent);
-        } else if (view.getId() == R.id.episode_playback_activity_main) {
-            Intent episodePlaybackIntent = new Intent(this, EpisodePlaybackActivity.class);
-            startActivity(episodePlaybackIntent);
+        switch (view.getId()) {
+            case R.id.find_podcast_activity_main:
+                Intent findPodcastIntent = new Intent(this, FindPodcastActivity.class);
+                startActivity(findPodcastIntent);
+                break;
+            case R.id.add_podcast_activity_main:
+                Intent addPodcastIntent = new Intent(this, AddPodcastActivity.class);
+                startActivity(addPodcastIntent);
+                break;
+            case R.id.downloaded_podcast_activity_main:
+                Intent downloadedPodcastIntent = new Intent(this, DownloadedPodcastsActivity.class);
+                startActivity(downloadedPodcastIntent);
+                break;
+            case R.id.episode_list_activity_main:
+                Intent episodeListIntent = new Intent(this, EpisodeListActivity.class);
+                startActivity(episodeListIntent);
+                break;
+            case R.id.episode_playback_activity_main:
+                Intent episodePlaybackIntent = new Intent(this, EpisodePlaybackActivity.class);
+                startActivity(episodePlaybackIntent);
+                break;
         }
     }
 }

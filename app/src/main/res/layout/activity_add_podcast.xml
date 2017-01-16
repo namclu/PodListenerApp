@@ -8,11 +8,6 @@
     android:orientation="vertical"
     tools:context="com.example.namlu.podlistenerapp.AddPodcastActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Description of this activity"/>
-
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -50,5 +45,14 @@
             android:layout_height="wrap_content"
             android:text="Add"/>
     </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Description of this activity"/>
+
+
 
 </LinearLayout>

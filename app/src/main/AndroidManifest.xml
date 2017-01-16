@@ -24,12 +24,12 @@
             android:label="@string/add_podcast_name">
         </activity>
         <activity
-            android:name=".DownloadedPodcastActivity"
+            android:name=".DownloadedPodcastsActivity"
             android:label="@string/downloaded_podcast_name">
         </activity>
         <activity
             android:name=".EpisodeListActivity"
-            android:label="@string/episode_list_name">
+            android:label="@string/download_episode_name">
         </activity>
         <activity android:name=".EpisodePlaybackActivity"
                   android:label="@string/episode_playback_name">
