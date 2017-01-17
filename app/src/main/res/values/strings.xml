@@ -3,7 +3,7 @@
     <string name="app_name">PodListener App</string>
     <string name="find_podcast_name">Find Podcasts</string>
     <string name="add_podcast_name">Add Podcast</string>
-    <string name="subscribed_podcast_name">Subscribed Podcasts</string>
+    <string name="subscribed_podcasts_name">Subscribed Podcasts</string>
     <string name="episode_list_name">Episode List</string>
     <string name="episode_playback_name">Episode Playback</string>
 
@@ -26,5 +26,8 @@
     <!-- Podcast Activity Descriptions -->
     <string name="placeholder_progress_bar"><![CDATA[<---------------------------- Progress bar ---------------------------->]]></string>
     <string name="description_find_podcast">Find Podcasts is the first activity presented to the user. It allows the user to search for a podcast using the search function. Once the user enters in the name of a podcast, we need to use a service such as Digital Podcast Search Service to query for results. This is a REST based service and operates via HTTP request, working similar to a web browser. When the user gets back their results, they can click on their podcast and will be take to the Add Podcast activity, where they choose to add the podcast to their library.</string>
-    <string name="description_subscribe_podcast">In the Add Podcast activity, the user can choose to add a podcast to their library. Adding a podcast will essentially add its download location given from the Digital Podcast Search Service query.</string>
+    <string name="description_add_podcast">In the Add Podcast activity, the user can choose to add a podcast to their library. The podcast location will be written to a cloud-based database such as Firebase so that users may be able to retrieve their subscribed podcasts if they are using the app on another device. Adding a podcast will essentially write its download location (from the Digital Podcast Search Service query) using a Firebase AIP to a database of user subscribed podcasts. </string>
+    <string name="description_subscribed_podcasts">The Subscribed Podcasts activity houses all podcasts subscribed by the user from the Add Podcast activity. The activity will need to use Firebase APIs to query and retrieve the subscribed podcasts database. The query results are then displayed to the user.</string>
+    <string name="description_episode_list">The Episode List activity shows the user a list of available episodes of a single podcast title, both downloaded and undownloaded. First the activity needs to fetch a list of episodes, provided again by the Digital Podcast Search Service. Then the activity needs to query the device storage to determine if the episode has been downloaded or not. If the episode has been downloaded, the user is given the option to playback and the activity can fetch the file by implementing the ContentResolver abstract class. If the user needs to download an episode, the activity can do so using the episode location and the File class to write the files.</string>
+    <string name="description_episode_playback">The Episode Playback activity will use the location of the file from the Episode List activity and playback the podcast file using the MediaPlayer class. The activity can then use the MediaController.MediaPlayerController interface to pause, forward/rewind, or skips episodes.</string>
 </resources>

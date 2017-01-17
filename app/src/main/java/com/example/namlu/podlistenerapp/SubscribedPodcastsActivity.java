@@ -11,7 +11,7 @@ public class SubscribedPodcastsActivity extends AppCompatActivity implements Vie
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_subscribed_podcast);
+        setContentView(R.layout.activity_subscribed_podcasts);
 
         // Declare references to SubscribedPodcastsActivity buttons
         View codeSwitchView;
@@ -19,25 +19,25 @@ public class SubscribedPodcastsActivity extends AppCompatActivity implements Vie
         View startUpView;
 
         // Find respective views and setOnClickListeners
-        codeSwitchView = findViewById(R.id.ll_code_switch_activity_downloaded_podcast);
+        codeSwitchView = findViewById(R.id.ll_code_switch_activity_subscribed_podcasts);
         codeSwitchView.setOnClickListener(this);
 
-        fragmentedView = findViewById(R.id.ll_fragmented_activity_downloaded_podcast);
+        fragmentedView = findViewById(R.id.ll_fragmented_activity_subscribed_podcasts);
         fragmentedView.setOnClickListener(this);
 
-        startUpView = findViewById(R.id.ll_podcast_startup_activity_downloaded_podcast);
+        startUpView = findViewById(R.id.ll_podcast_startup_activity_subscribed_podcasts);
         startUpView.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View view) {
-        if (view.getId() == R.id.ll_code_switch_activity_downloaded_podcast) {
+        if (view.getId() == R.id.ll_code_switch_activity_subscribed_podcasts) {
             Intent codeSwitchIntent = new Intent(this, EpisodeListActivity.class);
             startActivity(codeSwitchIntent);
-        } else if (view.getId() == R.id.ll_fragmented_activity_downloaded_podcast) {
+        } else if (view.getId() == R.id.ll_fragmented_activity_subscribed_podcasts) {
             Toast.makeText(this, "Opening Fragmented episodes list...", Toast.LENGTH_SHORT).show();
-        } else if (view.getId() == R.id.ll_podcast_startup_activity_downloaded_podcast) {
+        } else if (view.getId() == R.id.ll_podcast_startup_activity_subscribed_podcasts) {
             Toast.makeText(this, "Opening Startup episodes list...", Toast.LENGTH_SHORT).show();
         }
     }

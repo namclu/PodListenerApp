@@ -55,7 +55,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="@string/description_subscribe_podcast"/>
+        android:layout_height="wrap_content"
+        android:text="@string/description_add_podcast"/>
 
 </LinearLayout>

@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/subscribed_podcast_activity_main"
         style="@style/CategoryStyle"
-        android:text="@string/subscribed_podcast_name" />
+        android:text="@string/subscribed_podcasts_name" />
 
     <TextView
         android:id="@+id/episode_list_activity_main"

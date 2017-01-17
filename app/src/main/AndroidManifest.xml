@@ -25,7 +25,7 @@
         </activity>
         <activity
             android:name=".SubscribedPodcastsActivity"
-            android:label="@string/subscribed_podcast_name">
+            android:label="@string/subscribed_podcasts_name">
         </activity>
         <activity
             android:name=".EpisodeListActivity"
