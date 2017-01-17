@@ -17,13 +17,13 @@
 
     <!-- Single Podcast item -->
     <LinearLayout
-        android:id="@+id/ll_code_switch_activity_downloaded_podcast"
+        android:id="@+id/ll_code_switch_activity_subscribed_podcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/iv_code_switch_activity_downloaded_podcast"
+            android:id="@+id/iv_code_switch_activity_subscribed_podcast"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
@@ -35,12 +35,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_title_code_switch_activity_downloaded_podcast"
+                android:id="@+id/tv_title_code_switch_activity_subscribed_podcast"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:layout_toRightOf="@+id/iv_code_switch_activity_downloaded_podcast"
+                android:layout_toRightOf="@+id/iv_code_switch_activity_subscribed_podcast"
                 android:text="@string/title_code_switch"/>
 
             <TextView
@@ -48,8 +48,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="top"
-                android:layout_toRightOf="@id/iv_code_switch_activity_downloaded_podcast"
-                android:layout_below="@+id/tv_title_code_switch_activity_downloaded_podcast"
+                android:layout_toRightOf="@id/iv_code_switch_activity_subscribed_podcast"
+                android:layout_below="@+id/tv_title_code_switch_activity_subscribed_podcast"
                 android:text="@string/publisher_npr"/>
 
         </LinearLayout>
@@ -57,13 +57,13 @@
 
     <!-- Single Podcast item -->
     <LinearLayout
-        android:id="@+id/ll_fragmented_activity_downloaded_podcast"
+        android:id="@+id/ll_fragmented_activity_subscribed_podcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/iv_fragmented_activity_downloaded_podcast"
+            android:id="@+id/iv_fragmented_activity_subscribed_podcast"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
@@ -75,12 +75,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_title_fragmented_activity_downloaded_podcast"
+                android:id="@+id/tv_title_fragmented_activity_subscribed_podcast"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:layout_toRightOf="@+id/iv_fragmented_activity_downloaded_podcast"
+                android:layout_toRightOf="@+id/iv_fragmented_activity_subscribed_podcast"
                 android:text="@string/title_fragmented_an_android_podcast"/>
 
             <TextView
@@ -88,8 +88,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="top"
-                android:layout_toRightOf="@id/iv_fragmented_activity_downloaded_podcast"
-                android:layout_below="@+id/tv_title_fragmented_activity_find_podcast"
+                android:layout_toRightOf="@id/iv_fragmented_activity_subscribed_podcast"
+                android:layout_below="@+id/tv_title_fragmented_activity_subscribed_podcast"
                 android:text="@string/publisher_self_published"/>
 
         </LinearLayout>
@@ -97,13 +97,13 @@
 
     <!-- Single Podcast item -->
     <LinearLayout
-        android:id="@+id/ll_podcast_startup_activity_downloaded_podcast"
+        android:id="@+id/ll_podcast_startup_activity_subscribed_podcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/iv_startup_activity_downloaded_podcast"
+            android:id="@+id/iv_startup_activity_subscribed_podcast"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_margin="8dp"
@@ -115,12 +115,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tv_title_startup_activity_downloaded_podcast"
+                android:id="@+id/tv_title_startup_activity_subscribed_podcast"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="bottom"
-                android:layout_toRightOf="@+id/iv_startup_activity_downloaded_podcast"
+                android:layout_toRightOf="@+id/iv_startup_activity_subscribed_podcast"
                 android:text="@string/title_start_up_podcast"/>
 
             <TextView
@@ -128,7 +128,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="top"
-                android:layout_toRightOf="@id/iv_startup_activity_downloaded_podcast"
+                android:layout_toRightOf="@id/iv_startup_activity_subscribed_podcast"
                 android:layout_below="@+id/tv_title_startup_activity_find_podcast"
                 android:text="@string/publisher_gimlet_media"/>
 
