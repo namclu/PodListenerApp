@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:text="14 Jan"/>
+            android:text="@string/date_14_jan"/>
 
         <TextView
             android:layout_width="0dp"
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:text="21 Jan"/>
+            android:text="@string/date_21_jan"/>
 
         <TextView
             android:layout_width="0dp"

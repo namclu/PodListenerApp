@@ -27,7 +27,6 @@ public class SubscribedPodcastsActivity extends AppCompatActivity implements Vie
 
         startUpView = findViewById(R.id.ll_podcast_startup_activity_subscribed_podcasts);
         startUpView.setOnClickListener(this);
-
     }
 
     @Override

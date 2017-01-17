@@ -17,7 +17,7 @@
             android:id="@+id/et_search_activity_find_podcast"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:hint="Search by name"/>
+            android:hint="@string/et_text_hint"/>
 
         <Button
             android:id="@+id/btn_search_activity_find_podcast"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_toRightOf="@+id/et_search_activity_find_podcast"
-            android:text="Search"/>
+            android:text="@string/btn_text_search"/>
     </RelativeLayout>
 
     <View style="@style/Divider"/>
