@@ -3,7 +3,7 @@
     <string name="app_name">PodListener App</string>
     <string name="find_podcast_name">Find Podcasts</string>
     <string name="add_podcast_name">Add Podcast</string>
-    <string name="downloaded_podcast_name">Downloaded Podcasts</string>
+    <string name="subscribed_podcast_name">Subscribed Podcasts</string>
     <string name="episode_list_name">Episode List</string>
     <string name="episode_playback_name">Episode Playback</string>
 
@@ -19,7 +19,12 @@
     <string name="title_this_american_life">Title: This American Life</string>
     <string name="title_fragmented_an_android_podcast">Title: Fragmented: An Android Podcast</string>
 
-    <!-- Podcast Decriptions-->
+    <!-- Podcast Title Descriptions -->
     <string name="text_description_code_switch">#1 The premier episode!</string>
+    <string name="description_this_american_life">Description: This American Life is a weekly public radio show broadcast on more than 500 stations to about 2.2 million listeners.</string>
+
+    <!-- Podcast Activity Descriptions -->
     <string name="placeholder_progress_bar"><![CDATA[<---------------------------- Progress bar ---------------------------->]]></string>
+    <string name="description_find_podcast">Find Podcasts is the first activity presented to the user. It allows the user to search for a podcast using the search function. Once the user enters in the name of a podcast, we need to use a service such as Digital Podcast Search Service to query for results. This is a REST based service and operates via HTTP request, working similar to a web browser. When the user gets back their results, they can click on their podcast and will be take to the Add Podcast activity, where they choose to add the podcast to their library.</string>
+    <string name="description_subscribe_podcast">In the Add Podcast activity, the user can choose to add a podcast to their library. Adding a podcast will essentially add its download location given from the Digital Podcast Search Service query.</string>
 </resources>

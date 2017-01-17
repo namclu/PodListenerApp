@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addPodcastActivity = (TextView) findViewById(R.id.add_podcast_activity_main);
         addPodcastActivity.setOnClickListener(this);
 
-        downloadedPodcastActivity = (TextView) findViewById(R.id.downloaded_podcast_activity_main);
+        downloadedPodcastActivity = (TextView) findViewById(R.id.subscribed_podcast_activity_main);
         downloadedPodcastActivity.setOnClickListener(this);
 
         episodeListActivity = (TextView) findViewById(R.id.episode_list_activity_main);
@@ -48,9 +48,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent addPodcastIntent = new Intent(this, AddPodcastActivity.class);
                 startActivity(addPodcastIntent);
                 break;
-            case R.id.downloaded_podcast_activity_main:
-                Intent downloadedPodcastIntent = new Intent(this, DownloadedPodcastsActivity.class);
-                startActivity(downloadedPodcastIntent);
+            case R.id.subscribed_podcast_activity_main:
+                Intent subscribedPodcastIntent = new Intent(this, SubscribedPodcastsActivity.class);
+                startActivity(subscribedPodcastIntent);
                 break;
             case R.id.episode_list_activity_main:
                 Intent episodeListIntent = new Intent(this, EpisodeListActivity.class);

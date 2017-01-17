@@ -26,6 +26,11 @@
         android:layout_gravity="center"
         android:text="@string/publisher_wbez"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_this_american_life"/>
+
     <!-- Layout for buttons -->
     <LinearLayout
         android:layout_width="wrap_content"
@@ -51,8 +56,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Description of this activity"/>
-
-
+        android:text="@string/description_subscribe_podcast"/>
 
 </LinearLayout>

@@ -13,7 +13,7 @@ public class EpisodePlaybackActivity extends AppCompatActivity implements View.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_episode_playback);
 
-        // Declare references to DownloadedPodcastsActivity buttons
+        // Declare references to EpisodePlaybackActivity buttons
         ImageButton rewind30Button;
         ImageButton playButton;
         ImageButton forward30Button;

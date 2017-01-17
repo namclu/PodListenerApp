@@ -11,26 +11,26 @@
     <TextView
         android:id="@+id/find_podcast_activity_main"
         style="@style/CategoryStyle"
-        android:text="Find Podcasts" />
+        android:text="@string/find_podcast_name" />
 
     <TextView
         android:id="@+id/add_podcast_activity_main"
         style="@style/CategoryStyle"
-        android:text="Add Podcast" />
+        android:text="@string/add_podcast_name" />
 
     <TextView
-        android:id="@+id/downloaded_podcast_activity_main"
+        android:id="@+id/subscribed_podcast_activity_main"
         style="@style/CategoryStyle"
-        android:text="Downloaded Podcasts" />
+        android:text="@string/subscribed_podcast_name" />
 
     <TextView
         android:id="@+id/episode_list_activity_main"
         style="@style/CategoryStyle"
-        android:text="Episode List" />
+        android:text="@string/episode_list_name" />
 
     <TextView
         android:id="@+id/episode_playback_activity_main"
         style="@style/CategoryStyle"
-        android:text="Episode Playback" />
+        android:text="@string/episode_playback_name" />
 
 </LinearLayout>
